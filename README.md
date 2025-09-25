@@ -1,24 +1,21 @@
 # E-Commerce Database Project
 
-This project is a beginner-friendly **E-Commerce Database** built using MySQL.  
+A beginner-friendly e-commerce database designed in MySQL.  
 It demonstrates database design, SQL queries, views, procedures, and triggers.
 
-## Tables (Planned)
-- **customers**: customer details (cust_id, name, email, phone)
-- **products**: store products (product_id, name, price, stock)
-- **orders**: customer orders (order_id, cust_id, order_date)
-- **order_items**: items in each order (item_id, order_id, product_id, quantity, price_at_order)
-- **payments**: order payments (payment_id, order_id, amount, payment_date)
+## Features
+- 5 main tables: Customers, Products, Orders, Order_Items, Payments
+- ER Diagram included
+- Sample data for testing
+- Queries for sales reports and analytics
+- Views for top customers
+- Stored procedure for customer order history
+- Trigger to reduce stock after order
 
-## Core Features
-1. Place an order (orders + order_items + payment)
-2. Reduce product stock automatically (trigger)
-3. Generate reports: sales per month, top products, total spending per customer
-
-## Deployment Plan
-- Development: MySQL Workbench (local)
-- Deployment: Railway / Clever Cloud (optional hosting)
-- Showcase: GitHub repo + ER diagram + demo queries
+## How to Run
+1. Run `sql/schema.sql` to create the database and tables.
+2. Run `sql/sample-data.sql` to insert sample records.
+3. Explore `sql/queries.sql`, `sql/views.sql`, `sql/procedures.sql`, and `sql/triggers.sql`.
 
 ## ER Diagram
 ![ER Diagram](diagrams/eer-diagram.png)
