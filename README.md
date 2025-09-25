@@ -19,3 +19,6 @@ It demonstrates database design, SQL queries, views, procedures, and triggers.
 - Development: MySQL Workbench (local)
 - Deployment: Railway / Clever Cloud (optional hosting)
 - Showcase: GitHub repo + ER diagram + demo queries
+
+## ER Diagram
+![ER Diagram](diagrams/eer-diagram.png)
